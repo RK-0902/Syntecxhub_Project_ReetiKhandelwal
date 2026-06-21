@@ -76,9 +76,40 @@ A CLI-based application for managing student records using Object-Oriented Progr
 
 ---
 
+### 5. CSV to Excel Converter
+
+A command-line data processing tool that reads CSV files, cleans and normalizes data, and exports the results to Excel format (`.xlsx`).
+
+#### Features
+
+* Read CSV files using pandas
+* Export cleaned data to Excel using openpyxl
+* Handle missing values
+* Parse and standardize date columns
+* Rename columns for consistency
+* Command-line arguments for input and output paths
+* Logging for successful operations
+* Error handling for invalid or corrupted files
+* Useful for data preparation and reporting automation
+
+#### Concepts Used
+
+* Pandas Data Processing
+* OpenPyXL Excel Export
+* Data Cleaning and Normalization
+* Date Parsing
+* Command-Line Interface (CLI)
+* Logging
+* Exception Handling
+* File I/O
+
+---
+
 ## Technologies Used
 
 * Python 3
+* Pandas
+* OpenPyXL
 * JSON
 * File Handling
 * Object-Oriented Programming (OOP)
@@ -95,6 +126,8 @@ These projects help in understanding:
 * File I/O
 * Object-Oriented Programming
 * Data Validation
+* Data Cleaning and Transformation
+* Logging and Debugging
 * Menu-Driven Applications
 
 ---
